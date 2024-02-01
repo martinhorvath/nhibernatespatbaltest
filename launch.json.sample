@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: nhibernate spatial test Debug",
+            "type": "coreclr",
+            "preLaunchTask": "build",
+            "request": "launch",
+            "program": "${workspaceFolder}/nhibernatespatialtest/bin/Debug/net8.0/nhibernatespatialtest.dll",
+            "args": [],
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "KEY" : "Key from launch.json",
+                "DATABASE_HOST":"lolcalhost",
+                "DATABASE_USER_PASSWORD":"xxx",
+                "DATABASE_USER":"xxx",
+                "DATABASE_PORT":"5432",
+                "DATABASE_NAME":"xxx"
+            },
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
